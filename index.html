@@ -105,20 +105,11 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信很多小伙伴都在使用博客的默认主题（landscape主题），<br>我也是，<br>就是懒得弄其他主题，<br>我之前弄了一个icarus主题，<br>觉得不太符合我的风格，<br>就又改成了默认主题。<br>那么现在，<br>我就来教大家如何给我们的页面或文章进行加密。</p>
-<h2 id="下插件"><a href="#下插件" class="headerlink" title="下插件"></a>下插件</h2><p>先在我们的博客根目录右键，<br>选择显示更多选项，<br>选择Open Git Bash here，<br>输入以下代码：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-blog-encrypt --save</span><br></pre></td></tr></table></figure>
-<p>等待下载完成<br>如果不成功就把加速器关了，再试一次</p>
-<h2 id="加密文章或页面"><a href="#加密文章或页面" class="headerlink" title="加密文章或页面"></a>加密文章或页面</h2><p>将我们的文章开头的</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: <span class="comment">#这是你文章的标题</span></span><br><span class="line"><span class="built_in">date</span>: <span class="comment">#这是你文章的日期</span></span><br><span class="line">tags: <span class="comment">#这是你文章的标签</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>改成</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line"><span class="built_in">date</span>: </span><br><span class="line">password: </span><br><span class="line">abstract: </span><br><span class="line">message: </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>password:<br>这一行的意思是访问密码，<br>也就是在后面输入你设置的密码，<br>需要输入这串密码才能访问文章或页面。<br>abstract:<br>这一行的意思是提示语，<br>比如说：”请输入密码“等。<br>message:<br>这一行的代码的意思是输入密码的输入框里显示的文字</p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>最后在我们的终端中输入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<p>和</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>至此，<br>你的文章或页面就完成了加密，<br>你学会了吗？</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2026/01/08/%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%95%99%E7%A8%8B/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
